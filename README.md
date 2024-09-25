@@ -8,8 +8,9 @@
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/lab6_final.css">
 </head>
-</body>
+<body>
   <div id="page-wrapper">
+	</div>
     <header id="header">
       <a id="logo1" href="index.html"><img src="images/logo3.png" alt="Acme logo, large and in red"></a>
       <h1>My Demo Site</h1>
