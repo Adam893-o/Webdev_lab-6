@@ -1,66 +1,78 @@
-<!DOCTYPE html>
-<html lang="en">
+{ text-decoration: none;
+position: absolute;
+top:-34px;
+right: 10px;
+color: white;
+font-size: 1.8em;}
 
-<head>
-  <meta charset="utf-8">
-  <title>Style This HTML Lab</title>
-  <link href='https://fonts.googleapis.com/css?family=Devonshire' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/lab6_final.css">
-</head>
-</body>
-  <div id="page-wrapper">
-    <header id="header">
-      <a id="logo1" href="index.html"><img src="images/logo3.png" alt="Acme logo, large and in red"></a>
-      <h1>My Demo Site</h1>
-    </header>
-    <nav id="main-nav">
-      <ul>
-        <li><a href="http://www.iit.edu">IIT Home</a></li>
-        <li><a href="http://www.google.com">Google</a></li>
-        <li><a href="http://www.microsoft.com">Microsoft</a></li>
-        <li><a href="http://www.cnn.com">CNN</a></li>
-        <li><a href="http://admissions.iit.edu">IIT Admissions</a></li>
-      </ul>
-    </nav>
-    <main id="content-wrapper">
-      <div id="main-content">
-        <h2><strong>This is our h2 Tag</strong></h2>
-        <img class="image-r" src="images/main.png" alt="Logo for Main Squeeze Juice Company in black and white">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis, sed ab sequi molestias eum sint consectetur dicta praesentium ipsa repellat soluta placeat dolor! Accusantium impedit est explicabo harum aperiam!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis, sed ab sequi molestias eum sint consectetur dicta praesentium ipsa repellat soluta placeat dolor! Accusantium impedit est explicabo harum aperiam!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis, sed ab sequi molestias eum sint consectetur dicta praesentium ipsa repellat soluta placeat dolor! Accusantium impedit est explicabo harum aperiam!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis, sed ab sequi molestias eum sint consectetur dicta praesentium ipsa repellat soluta placeat dolor! Accusantium impedit est explicabo harum aperiam!</p>
-        <ul id="bul1">
-          <li>List 1</li>
-          <li>List 2</li>
-          <li>List 3</li>
-          <li>List 4</li>
-        </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, perferendis, sed ab sequi molestias eum sint consectetur dicta praesentium ipsa repellat soluta placeat dolor! Accusantium impedit est explicabo harum aperiam!</p>
-        <ul id="bul2">
-          <li>List 1</li>
-          <li>List 2</li>
-          <li>List 3</li>
-          <li>List 4</li>
-        </ul>
-        <div id="center">
-          <iframe width="400" height="300" src="https://www.youtube.com/embed/-jn9aaNn8_I?si=D1HhLAWQ5awY9BfU" frameborder="0" allowfullscreen></iframe>
-        </div>
-      </div>
-      <aside id="side-content">
-        <h3>Interesting Articles</h3>
-        <ol id="news">
-          <li><a href="#">Article 1</a><div><p>Preview of very interesting article article</p></div></li>
-          <li><a href="#">Article 2</a><div><p>Preview of very interesting article article</p></div></li>
-          <li><a href="#">Article 3</a><div><p>Preview of very interesting article article</p></div></li>
-          <li><a href="#">Article 4</a><div><p>Preview of very interesting article article</p></div></li>
-        </ol>
-      </aside>
-    </main>
-    <footer id="footer">
-      <p>Footer Content is here</p>
-    </footer>
-  </div>
-</body>
-</html>
+{ margin-top: 20px;
+margin-left: 20px;
+margin-bottom: 20px;}
+
+{ position: absolute;
+left: 420px;
+top:5px;
+font-size: 3em;
+font-family: 'Devonshire', cursive;
+color: #E35335;}
+
+{ position: relative;
+margin-top: 40px;
+border-radius: 12px 12px 0px 0px;}
+
+{ background-color: #777;
+height: 80px;
+clear: both;}
+
+{ list-style-type: none;
+margin: 0;
+padding: 0;
+float: left;
+position: relative;
+left:50%;}
+
+{ background-image: url("../images/repeating.png");
+float: left;}
+
+{ background-image: url("../images/black.jpg"); }
+
+{ min-height: 300px;
+width: 715px;
+margin-right: 30px;
+float: left;
+margin-left: 15px;}
+
+{ font-size: 2em;
+font-weight: 900;}
+
+{ float: right;
+border: 2px solid blue;
+width: 300px;
+padding: 5px;
+background-color: white;
+margin: 10px 0 10px 20px;}
+
+{ min-height: 150px;
+width: 200px;
+float: left;}
+
+{ float: left;
+width: 100%;
+background-color: #333;}
+
+{ padding: 10px 25px;
+display: block;
+text-decoration: none;
+color: #ccc;}
+
+{ background-color: #ccc;
+color: #333;}
+
+{ width: 960px;
+margin: 0 auto;
+box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 1);
+border-radius: 12px 12px 0px 0px; }
+
+{ float: left;
+position: relative;
+right: 50%;}
